@@ -1,3 +1,6 @@
 [submodule "embedded_HeartBeatSystem"]
 	path = embedded_HeartBeatSystem
 	url = https://github.com/adhamaly/embedded_HeartBeatSystem
+[submodule "android_HearBeatSystem"]
+	path = android_HearBeatSystem
+	url = https://github.com/adhamaly/android_HearBeatSystem
