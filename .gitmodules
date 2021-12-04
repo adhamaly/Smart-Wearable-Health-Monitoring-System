@@ -1,0 +1,3 @@
+[submodule "embedded_HeartBeatSystem"]
+	path = embedded_HeartBeatSystem
+	url = https://github.com/adhamaly/embedded_HeartBeatSystem
