@@ -63,3 +63,47 @@ Represents a remote Bluetooth device. Use this to request a connection with a re
 
 [BluetoothSocket](https://developer.android.com/reference/android/bluetooth/BluetoothSocket)
 Represents the interface for a Bluetooth socket (similar to a TCP [Socket](https://developer.android.com/reference/java/net/Socket)). This is the connection point that allows an application to exchange data with another Bluetooth device using [InputStream](https://developer.android.com/reference/java/io/InputStream) and [OutputStream](https://developer.android.com/reference/java/io/OutputStream).
+
+**2. Maps API**
+
+Using the Google Play services location APIs, your app can request the last known location of the user's device. In most cases, you are interested in the user's current location, which is usually equivalent to the last known location of the device.
+
+Specifically, use the [fused location provider](https://developers.google.com/android/reference/com/google/android/gms/location/FusedLocationProviderClient.html) to retrieve the device's last known location. The fused location provider is one of the location APIs in Google Play services. It manages the underlying location technology and provides a simple API so that you can specify requirements at a high level, like high accuracy or low power. It also optimizes the device's use of battery power.
+
+
+**Key classes and interfaces**
+
+public class **FusedLocationProviderClient**
+
+The main entry point for interacting with the fused location provider.
+#### **public Task<**[**Location**](https://developer.android.com/reference/android/location/Location.html)**>**  getLastLocation  **()**
+
+Returns the best most recent location currently available.
+
+**3.  PyTorch Android API**
+
+Running ML on edge devices is growing in importance as applications continue to demand lower latency. It is also a foundational element for privacy-preserving techniques such as federated learning. As of PyTorch 1.3, PyTorch supports an end-to-end workflow from Python to deployment on iOS and Android.
+
+This is an early, experimental release that we will be building on in several areas over the coming months:
+
+Provide APIs that cover common preprocessing and integration tasks needed for incorporating ML in mobile applications
+
+
+## Firebase
+**1. Firebase Realtime**
+
+Store and sync data with our NoSQL cloud database. Data is synced across all clients in real time, and remains available when your app goes offline.
+The Firebase Realtime Database is a cloud-hosted database. Data is stored as JSON and synchronized in real time to every connected client. When you build cross-platform apps with our iOS, Android, and JavaScript SDKs, all of your clients share one Realtime Database instance and automatically receive updates with the newest data.
+
+
+
+**2.  Firebase Authentication**
+
+Most apps need to know the identity of a user. Knowing a user's identity allows an app to securely save user data in the cloud and provide the same personalized experience across all of the user's devices.
+Firebase Authentication provides backend services, easy-to-use SDKs, and ready-made UI libraries to authenticate users to your app. It supports authentication using passwords, phone numbers, popular federated identity providers like Google, Facebook and Twitter, and more.
+
+
+**3. Cloud Storage**
+
+Cloud Storage is built for app developers who need to store and serve user-generated content, such as photos or videos
+Cloud Storage for Firebase is a powerful, simple, and cost-effective object storage service built for Google scale. The Firebase SDKs for Cloud Storage add Google security to file uploads and downloads for your Firebase apps, regardless of network quality. You can use our SDKs to store images, audio, video, or other user-generated content. On the server, you can use [Google Cloud Storage](https://cloud.google.com/storage), to access the same files.
